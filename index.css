@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #1b1924;
+}
+
+.container {
+  margin: 55px auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+  width: 150px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 17px;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.message-el {
+  background: #444059;
+  width: 317px;
+  height: 118px;
+  border-style: none;
+  border-radius: 8px;
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.from-to {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input {
+  background: #444059;
+  border-style: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px 0.5px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+button {
+  background: #28a9f1;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 15px 135px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.endorsement {
+  background: #ffffff;
+  color: #1b1924;
+  padding: 15px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  width: 286px;
+  margin: auto;
+  padding: 10px 25px;
+  text-align: left;
+}
+
+#recipient-el,
+#sender-el {
+  font-weight: 700;
+}
