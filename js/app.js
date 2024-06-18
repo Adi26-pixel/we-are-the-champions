@@ -1,4 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 
 import {
   getDatabase,
@@ -6,14 +6,14 @@ import {
   push,
   onValue,
   remove,
-} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
-const appSettings = {
-  databaseUrl:
+const firebaseConfig = {
+  databaseURL:
     "https://we-are-the-champions-c4de0-default-rtdb.europe-west1.firebasedatabase.app/",
 };
 
-const app = initializeApp(appSettings);
+const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const endorsementListInDB = ref(database, "endorsements");
 
